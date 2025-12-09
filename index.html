@@ -1,8 +1,176 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Hello</h1>
+<head>
+	<link rel="stylesheet" href="stylesheet.css">
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+.cursor-trail {
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: screen;
+    animation: sparkle 1s ease-out forwards;
+    box-shadow: 0 0 10px 2px currentColor;
+}
+
+@keyframes sparkle {
+    0% {
+        transform: translate(-50% , -50%) scale(0);
+        opacity: 1;
+        filter: hue-rotate(0deg) brightness(1.5);
+    }
+    50% {
+        opacity: 0.5;
+        filter: hue-rotate(180deg) brightness(2);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0;
+        filter: hue-rotate(360deg) brightness(1);
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, #ff4d4d, #f9cb28, #4dff4d, #4da6ff, #ff4dff);
+    background-size: 400% 400%;
+    --webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 8s ease infinite;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+p {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+</style>
+<head>
+	<body style="background-color: black;">
+		 <audio autoplay loop>
+     	 <source src="Guitar.mp3" type="audio/mp3">
+   		 </audio>
+	<script src="script.js"></script>
+
+<div class="myDiv" >
+
+		<div>
+			<h1 id="artist-container" style="color: white; font-size: 30px; font-family: Hurricane;">Arijit Singh<h1>
+		<div>
+
+		<div>
+		<a id="image-container" href="links.html"><video width="200" height="300" autoplay muted loop>
+ 		 <source src="shapedistortion.mp4" type="video/mp4">
+		<div>
 
 
-  </body>
-</html>
+			<div>
+			<h1 id="artist-container2"style="color: white; font-size: 30px; font-family: Hurricane;">Shreya Goshal<h1>
+			<div>
+		<div>
+		<a id="image-container2" href="links2.html"><video width="300" height="300" autoplay muted loop>
+			<source src="Screenshot2.mp4" type="video/mp4">
+		<div>
+
+	
+			<div> 
+			<h1 id="artist-container3"style="color: white; font-size: 30px; font-family: Hurricane;">Atif Aslam<h1>
+			<div>
+		<div>
+		<a id="image-container3" href="links3.html"><video width="500" height="300" autoplay muted loop>
+ 		 <source src="Screenshot3.mp4" type="video/mp4">
+		<div>
+
+			<div>
+			<h1 id="artist-container4"style="color: white; font-size: 30px; font-family: Hurricane;">Vishal Mishra<h1>
+			<div>
+		<div>
+		<a id="image-container4"href="links4.html"><video width="400" height="200" autoplay muted loop>
+ 		 <source src="Screenshot4.mp4" type="video/mp4">
+		<div>
+
+	
+			<div>
+			<h1 id="artist-container5"style="color: white; font-size: 30px; font-family: Hurricane;">Dilijit Dosanjh<h1>
+			<div>
+		<div>
+		<a  id="image-container5" href="links5.html"><video width="400" height="200" autoplay muted loop>
+ 		 <source src="Screenshot5.mp4" type="video/mp4">
+		<div>
+		<div>
+
+			<div>
+			<h1 id="artist-container6"style="color: white; font-size: 30px; font-family: Hurricane;">Neeti Mohan<h1>
+			<div>
+		<div>
+		<a  id="image-container6" href="links6.html"><video width="600" height="400" autoplay muted loop>
+ 		 <source src="Screenshot6.mp4" type="video/mp4">
+		<div>
+		<div>
+
+			<div>
+			<h1 id="artist-container7"style="color: white; font-size: 30px; font-family: Hurricane;">Sachet-Parampara <h1>
+			<div>
+		<div>
+		<a  id="image-container7" href="links7.html"><video width="400" height="300" autoplay muted loop>
+ 		 <source src="Screenshot7.mp4" type="video/mp4">
+		<div>
+		<div>
+
+			<div>
+			<h1 id="artist-container8"style="color: white; font-size: 30px; font-family: Hurricane;">Sunidhi Chauhan <h1>
+			<div>
+		<div>
+		<a  id="image-container8" href="links8.html"><video width="600" height="400" autoplay muted loop>
+ 		 <source src="Screenshot8.mp4" type="video/mp4">
+		<div>
+		<div>
+
+			<div>
+			<h1 id="artist-container9"style="color: white; font-size: 30px; font-family: Hurricane;">Mohit Chauhan <h1>
+			<div>
+		<div>
+		<a  id="image-container9" href="links9.html"><video width="300" height="300" autoplay muted loop>
+ 		 <source src="Screenshot9.mp4" type="video/mp4">
+		<div>
+		<div>
+
+			<div>
+			<h1 id="artist-container10"style="color: white; font-size: 30px; font-family: Hurricane;">KK <h1>
+			<div>
+		<div>
+		<a  id="image-container10" href="links10.html"><video width="500" height="500" autoplay muted loop>
+ 		 <source src="Screenshot10.mp4" type="video/mp4">
+		<div>
+		<div>
+
+			<div>
+			<h1 id="artist-container11"style="color: white; font-size: 30px; font-family: Hurricane;">Vishal Dadlani <h1>
+			<div>
+		<div>
+		<a  id="image-container11" href="links11.html"><video width="300" height="300" autoplay muted loop>
+ 		 <source src="Screenshot11.mp4" type="video/mp4">
+		<div>
+		<div>
+
+		<div>
+			<h1 id="artist-container12"style="color: white; font-size: 30px; font-family: Hurricane;">Sukhwinder Singh <h1>
+			<div>
+		<div>
+		<a  id="image-container12" href="links12.html"><video width="400" height="400" autoplay muted loop>
+ 		 <source src="Screenshot12.mp4" type="video/mp4">
+		<div>
+		<div>
+
+		<div>
+
+	<body>
+<html>
